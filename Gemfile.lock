@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    VGCRF (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (11.1.1)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
+    rake (12.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  VGCRF!
+  byebug
+  nokogiri (~> 1.10, >= 1.10.9)
+  rake (~> 12.0)
+
+BUNDLED WITH
+   2.1.4
