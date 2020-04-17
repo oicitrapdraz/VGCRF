@@ -21,7 +21,7 @@ module VGCRF
       names = get_td_from(parsed_response, /apellidos/i)
       other_names = get_td_from(parsed_response, /formas/i)
       town = get_td_from(parsed_response, /pobla/i)
-      residency = get_td_from(parsed_response, /residencia/i).gsub(/\s+/, ' ')
+      residency = get_td_from(parsed_response, /residencia/i)
       profession = get_td_from(parsed_response, /profe/i)
       archive = get_td_from(parsed_response, /archivo/i)
       background = get_td_from(parsed_response, /fondo/i)
