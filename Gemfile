@@ -6,5 +6,5 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'byebug'
-gem 'nokogiri', '~> 1.10', '>= 1.10.9'
+gem 'nokogiri', '~> 1.13'
 gem 'rake', '~> 12.0'

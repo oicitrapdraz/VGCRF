@@ -7,9 +7,11 @@ GEM
   remote: https://rubygems.org/
   specs:
     byebug (11.1.1)
-    mini_portile2 (2.4.0)
-    nokogiri (1.10.9)
-      mini_portile2 (~> 2.4.0)
+    mini_portile2 (2.8.0)
+    nokogiri (1.13.4)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    racc (1.6.0)
     rake (12.3.3)
 
 PLATFORMS
@@ -18,7 +20,7 @@ PLATFORMS
 DEPENDENCIES
   VGCRF!
   byebug
-  nokogiri (~> 1.10, >= 1.10.9)
+  nokogiri (~> 1.13)
   rake (~> 12.0)
 
 BUNDLED WITH
